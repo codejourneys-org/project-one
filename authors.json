@@ -1,8 +1,13 @@
 [
   {
-    "name": "Test",
-    "githubNick": "test",
-    "country": "test"
+    "name": "Ricky",
+    "githubNick": "RickyDoesCode",
+    "country": "Indonesia"
+  },
+  {
+    "name": "Rossella Mascia",
+    "githubNick": "_RedRoss_",
+    "country": "Italy"
   },
   {
     "name": "Emilija",
@@ -23,5 +28,9 @@
     "name": "Rossella",
     "githubNick": "_RedRoss_",
     "country": "Italy"
+ },
+    "name": "Ivo",
+    "githubNick": "botelja",
+    "country": "Croatia"
   }
 ]

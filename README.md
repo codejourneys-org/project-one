@@ -7,13 +7,14 @@ Project One is an educational project and belongs to the CodeJourneys.org commun
 ## Infos
 
 The customer is a web developer and needs a "personal website" for herself.
-She would like to publish the following informations:
+
+She would like to publish the following information:
 
 - Skills
 - Expertise / Jobs
 - Education
 - Portfolio
-  - Website + Screenshot
+- Website + Screenshot
 - Contacts
 
 These are the minimum requirements.
@@ -48,3 +49,4 @@ Here you can find free stock photos:
 
 - [Pexels](https://www.pexels.com/it-it/)
 - [Pixabay](https://pixabay.com/)
+- [Unsplash](https://unsplash.com/)

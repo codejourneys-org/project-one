@@ -1,0 +1,15 @@
+.title {
+	font-family: 'Bebas Neue';
+	letter-spacing: 2px;
+}
+.subtitle {
+	font-family: 'Special Elite';
+	letter-spacing: 1px;
+}
+span {
+	margin-left: 10px;
+}
+.extra-information {
+	max-width: 100vw;
+	min-width: 40vw;
+}

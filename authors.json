@@ -1,5 +1,15 @@
 [
   {
+    "name": "Test",
+    "githubNick": "test",
+    "country": "test"
+  }, 
+  {
+    "name": "Gbadamosi Odofin",
+    "githubNick": "Odofing",
+    "country": "Nigeria"
+  },
+  {
     "name": "Ricky",
     "githubNick": "RickyDoesCode",
     "country": "Indonesia"
@@ -25,8 +35,18 @@
     "country": "Italy"
   },
   {
+		"name": "Kaori",
+		"githubNick": "KaoriIzutani",
+    "country": "United States",
+  },
+  {
     "name": "Ivo",
     "githubNick": "botelja",
     "country": "Croatia"
+  },
+  {
+    "name": "Dule Martins",
+    "githubNick": "dule-mart",
+    "country": "Nigeria"
   }
 ]

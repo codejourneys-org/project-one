@@ -1,0 +1,284 @@
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.icon-personale:hover, .icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.icon-1 {
+  color: #d94a26;
+  fill: #d94a26;
+}
+.icon-1:hover {
+  background: #d94a26;
+}
+
+.icon-2 {
+  color: #d96e26;
+  fill: #d96e26;
+}
+.icon-2:hover {
+  background: #d96e26;
+}
+
+.icon-3 {
+  color: #d99126;
+  fill: #d99126;
+}
+.icon-3:hover {
+  background: #d99126;
+}
+
+.icon-4 {
+  color: #d9b526;
+  fill: #d9b526;
+}
+.icon-4:hover {
+  background: #d9b526;
+}
+
+.icon-5 {
+  color: #d9d926;
+  fill: #d9d926;
+}
+.icon-5:hover {
+  background: #d9d926;
+}
+
+.icon-6 {
+  color: #b5d926;
+  fill: #b5d926;
+}
+.icon-6:hover {
+  background: #b5d926;
+}
+
+.icon-7 {
+  color: #91d926;
+  fill: #91d926;
+}
+.icon-7:hover {
+  background: #91d926;
+}
+
+.icon-8 {
+  color: #6ed926;
+  fill: #6ed926;
+}
+.icon-8:hover {
+  background: #6ed926;
+}
+
+.icon-9 {
+  color: #4ad926;
+  fill: #4ad926;
+}
+.icon-9:hover {
+  background: #4ad926;
+}
+
+.icon-10 {
+  color: #26d926;
+  fill: #26d926;
+}
+.icon-10:hover {
+  background: #26d926;
+}
+
+.icon-11 {
+  color: #26d94a;
+  fill: #26d94a;
+}
+.icon-11:hover {
+  background: #26d94a;
+}
+
+.icon-12 {
+  color: #26d96e;
+  fill: #26d96e;
+}
+.icon-12:hover {
+  background: #26d96e;
+}
+
+.icon-13 {
+  color: #26d991;
+  fill: #26d991;
+}
+.icon-13:hover {
+  background: #26d991;
+}
+
+.icon-14 {
+  color: #26d9b5;
+  fill: #26d9b5;
+}
+.icon-14:hover {
+  background: #26d9b5;
+}
+
+.icon-15 {
+  color: #26d9d9;
+  fill: #26d9d9;
+}
+.icon-15:hover {
+  background: #26d9d9;
+}
+
+.icon-16 {
+  color: #26b5d9;
+  fill: #26b5d9;
+}
+.icon-16:hover {
+  background: #26b5d9;
+}
+
+.icon-17 {
+  color: #2691d9;
+  fill: #2691d9;
+}
+.icon-17:hover {
+  background: #2691d9;
+}
+
+.icon-18 {
+  color: #266ed9;
+  fill: #266ed9;
+}
+.icon-18:hover {
+  background: #266ed9;
+}
+
+.icon-19 {
+  color: #264ad9;
+  fill: #264ad9;
+}
+.icon-19:hover {
+  background: #264ad9;
+}
+
+.icon-20 {
+  color: #2626d9;
+  fill: #2626d9;
+}
+.icon-20:hover {
+  background: #2626d9;
+}
+
+.icon-21 {
+  color: #4a26d9;
+  fill: #4a26d9;
+}
+.icon-21:hover {
+  background: #4a26d9;
+}
+
+.icon-22 {
+  color: #6e26d9;
+  fill: #6e26d9;
+}
+.icon-22:hover {
+  background: #6e26d9;
+}
+
+.icon-23 {
+  color: #9126d9;
+  fill: #9126d9;
+}
+.icon-23:hover {
+  background: #9126d9;
+}
+
+.icon-24 {
+  color: #b526d9;
+  fill: #b526d9;
+}
+.icon-24:hover {
+  background: #b526d9;
+}
+
+.icon-25 {
+  color: #d926d9;
+  fill: #d926d9;
+}
+.icon-25:hover {
+  background: #d926d9;
+}
+
+.icon-26 {
+  color: #d926b5;
+  fill: #d926b5;
+}
+.icon-26:hover {
+  background: #d926b5;
+}
+
+.icon-27 {
+  color: #d92691;
+  fill: #d92691;
+}
+.icon-27:hover {
+  background: #d92691;
+}
+
+.icon-28 {
+  color: #d9266e;
+  fill: #d9266e;
+}
+.icon-28:hover {
+  background: #d9266e;
+}
+
+.icon-29 {
+  color: #d9264a;
+  fill: #d9264a;
+}
+.icon-29:hover {
+  background: #d9264a;
+}
+
+.icon-30 {
+  color: #d92626;
+  fill: #d92626;
+}
+.icon-30:hover {
+  background: #d92626;
+}
+.icon-personale {
+    color: #5ea8bd;
+    fill: #5ea8bd;
+  }
+.icon-personale:hover {
+    background: #5ea8bd;
+  }

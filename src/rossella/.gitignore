@@ -1,2 +1,2 @@
 *.json
-dist
+.DS_Store

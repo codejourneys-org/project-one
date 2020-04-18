@@ -1,0 +1,32 @@
+body {
+    margin:  15px 30px;
+    
+}
+
+/*This will take up the entire width and height of the webpage*/
+
+p {
+    font-family: sans-serif;
+    color: #333;
+}
+
+.grid-container {
+    position: right;
+    height: 75vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /*fr = Fractional units. Takes a fraction of available
+    space. 2fr will take up 2 fractions worth of available space*/
+}
+
+.grid-item {
+    background-color: #ccc;
+    border: 4px solid #ff6600;
+    padding: 20px;
+}
+
+.column {
+    width: 50%;
+    height: 100%;
+
+}

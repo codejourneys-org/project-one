@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body { font-family: 'Roboto Slab', serif; }
+
+#name h1 {
+  font-size: 6.0em;
+  font-weight: 400;  font-size: 4em;
+  color: var(--color-primary-0);
+  margin: 0.4em 0;
+}
+
+#name h2 {
+  font-size: 2em;
+  font-weight: 200;
+  color: var(--color-primary-2);
+  margin: 0;
+}
+
+#social .social-icon i {
+  font-size: 1.2em;
+  opacity: 0.6;
+  color: var(--secondary-bg-color-2);
+}
+
+#social .social-icon i:hover {
+  opacity: 1;
+}
+
+
+.infobox h3 {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: var(--color-secondary-3-0);
+}
+
+.infobox p {
+  font-size: 0.9em;
+  font-weight: 00;
+  color: var(--color-secondary-3-1);
+}
+
+@media only screen and (max-width: 1024px) {
+  #masthead {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 0em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #name h1 {
+    font-size: 3.0em;
+  }
+  
+  #name h2 {
+    font-size: 1.5em;
+  }
+
+  #social .social-icon i {
+    font-size: 1em;
+  } 
+}

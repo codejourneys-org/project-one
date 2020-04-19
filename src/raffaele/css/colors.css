@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --secondary-bg-color: #F8F8F8;
+  --secondary-bg-color-2: #888888;
+  
+  --line-color: #ddd;
+  
+  --color-primary-0: #C50572;
+  --color-primary-1: #D7569F;
+  --color-primary-2: #CC3189;
+
+  --color-secondary-1-0: #05C405;
+  --color-secondary-1-1: #56D756;
+  --color-secondary-1-2: #31CC31;
+
+  --color-secondary-2-0: #F5F506;
+  --color-secondary-2-1: #FFFF66;
+  --color-secondary-2-2: #FFFF3D;
+
+  --color-secondary-3-0: #000000;
+  --color-secondary-3-1: #333333;
+}

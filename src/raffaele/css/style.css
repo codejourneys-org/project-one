@@ -1,129 +1,128 @@
-@import './colors.css';
-@import './typography.css';
+  @import './colors.css';
+  @import './typography.css';
 
-html, body {
-  padding: 0;
-  margin: 0;
-}
-
-/* Masthead */
-#masthead {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 5em;
-  height: 100vh;
-  align-items: stretch;
-}
-
-#picture {
-  background-color: var(--secondary-bg-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#image {
-  max-height: 40vh;
-  background-color: var(--main-bg-color);
-  border-radius: 50%;
-}
-
-#card {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-#name {
-  width: 100%;
-}
-
-#social {
-  width: 100%;
-  display: flex; 
-  align-items: center;
-  height: 10%;
-}
-
-#social .social-icon {
-  font-size: 2em;
-  width: auto;
-  padding: 0 10px 0 0;
-}
-
-#infoboxes {
-  border-top: 1px solid var(--line-color);
-  width: 80%;
-  display: flex;
-  flex-wrap: wrap;   
-  padding-top: 30px;
-  justify-content: start;
-  margin-top: 60px;
-}
-
-#infoboxes .infobox {
-  width: 25%;
-}
-
-@media only screen and (max-width: 1024px) {
-  #masthead {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
-    gap: 0em;
+  html, body {
+    padding: 0;
+    margin: 0;
   }
-  
-  #card {
+
+  /* Masthead */
+  #masthead {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5em;
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  #picture {
+    background-color: var(--secondary-bg-color);
     display: flex;
-    flex-direction: column;
-    align-content: stretch;
+    justify-content: center;
+    align-items: center;
   }
 
   #image {
-    max-height: 90%;
+    max-height: 40vh;
+    background-color: var(--main-bg-color);
+    border-radius: 50%;
+  }
+
+  #card {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
   }
 
   #name {
-    height: auto;
-    text-align: center;
+    width: 100%;
   }
 
   #social {
-    height: 20%;
-    justify-content: center;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    height: 10%;
   }
-  
+
+  #social .social-icon {
+    font-size: 2em;
+    width: auto;
+    padding: 0 10px 0 0;
+  }
+
   #infoboxes {
-    height: auto;
-    margin: 10px auto 0 auto;
+    border-top: 1px solid var(--line-color);
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;   
+    padding-top: 30px;
+    justify-content: start;
+    margin-top: 60px;
   }
 
   #infoboxes .infobox {
     width: 25%;
   }
-  
-  #social {
-    margin: 0 auto;
-  } 
-}
 
-@media only screen and (max-width: 768px) {
-  #masthead {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
-  }  
+  @media only screen and (max-width: 1024px) {
+    #masthead {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr;
+      gap: 0em;
+    }
+    
+    #card {
+      display: flex;
+      flex-direction: row;
+      align-content: stretch;
+    }
 
-  #infoboxes .infobox {
-    width: 100%;
-    text-align: center;
+    #image {
+      max-height: 90%;
+    }
+
+    #name {
+      height: auto;
+      text-align: center;
+    }
+
+    #social {
+      height: 20%;
+      justify-content: center;
+    }
+    
+    #infoboxes {
+      height: auto;
+      margin: 10px auto 0 auto;
+    }
+
+    #infoboxes .infobox {
+      width: 25%;
+    }
+    
+    #social {
+      margin: 0 auto;
+    } 
   }
 
-  #social {
-    padding: 3em 0;
-  }
+  @media only screen and (max-width: 768px) {
+    #masthead {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr;
+    }  
 
-  #image {
-    max-height: 80%;
-    min-height: 100px;
-    width: auto;
+    #infoboxes .infobox {
+      width: 100%;
+      text-align: center;
+    }
+
+    #social {
+      padding: 3em 0;
+    }
+
+    #image {
+      max-height: 80%;
+      min-height: 100px;
+    }
   }
-}

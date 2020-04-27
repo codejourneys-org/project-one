@@ -1,6 +1,210 @@
-img {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(113, 223, 199);
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profilePic {
     border-radius: 50%;
-    border: 7px solid rgb(2, 2, 2);
-    width: 500px;
-    height: 500px;
+    border: 7px dashed rgb(42, 88, 78);
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.picture {
+    display: flex;
+}
+
+.top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5px;
+
+}
+
+.name {
+    font-family: fantasy;
+    font-size: 40px;
+    color: rgb(29, 63, 56);
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
+.titleAndLocation {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(29, 63, 56);
+
+}
+
+.middle-row {
+    padding: 5px;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.location {
+    flex: 1;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+}
+
+.location.city {
+    display: flex;
+    flex: 1;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    flex: 1;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+}
+
+.phone.number {
+    flex: 1;
+    display: flex;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.web {
+    flex: 1;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+}
+
+.email {
+    flex: 1;
+    font-family: fantasy;
+    font-size: 18px;
+    color: rgb(29, 63, 56);
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bottom-row {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+}
+
+.underline {
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(29, 63, 56);
+
+}
+
+.location.underline {
+    border-right: none;
+}
+
+.phone.underline {
+    border-right: none;
+}
+
+.web.underline {
+    border-right: none;
+}
+
+.ulLinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+li:hover {
+    border-radius: 70%;
+    background-color:  rgb(53, 143, 125);
+    cursor: pointer;
+}
+
+.insta, .twit, .face {
+    height: 70px;
+    width: 70px;
+}
+
+.message, .sendEmail {
+    transition: all .2s ease-in-out;
+}
+
+.message:link, .message:visited {
+    background-color: rgb(48, 155, 133);
+    color: rgb(29, 63, 56);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px dashed rgb(42, 88, 78);
+}
+
+.sendEmail:link, .sendEmail:visited {
+    background-color: rgb(48, 155, 133);
+    color: rgb(29, 63, 56);
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px dashed rgb(42, 88, 78);
+}
+
+.message:hover, .sendEmail:hover {
+    transform: scale(1.2);
+    border: 3px dashed rgb(42, 88, 78);
+}
+
+.attribution {
+    font-family: fantasy;
+    font-size: 16px;
+    color: rgb(29, 63, 56);
+    text-align: center;
 }
